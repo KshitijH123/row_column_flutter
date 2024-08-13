@@ -14,6 +14,12 @@ class HomePage extends StatelessWidget {
         child: ListView(
           padding: EdgeInsets.zero,
           children: <Widget>[
+            UserAccountsDrawerHeader(
+              accountName: Text('Sanket'),
+               accountEmail: Text('abc@gmail.com'),
+               currentAccountPicture: Image.asset('assets/images/profile.png'),
+               ),
+            SizedBox(height: 20,),
             ListTile(
               title: Text('Row Page'),
               onTap: () {
