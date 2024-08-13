@@ -16,7 +16,7 @@ class RowPage extends StatelessWidget {
               width: 50,
               height: 50,
             ),
-            SizedBox(width: 20), // Spacing between boxes
+            SizedBox(width: 20),
             Container(
               color: Colors.green,
               width: 50,

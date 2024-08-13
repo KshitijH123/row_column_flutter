@@ -19,15 +19,21 @@ class ColumnPage extends StatelessWidget {
                   width: 50,
                   height: 50,
                 ),
-                SizedBox(width: 20), // Spacing between boxes
+                SizedBox(width: 20), 
                 Container(
                   color: Colors.yellow,
                   width: 50,
                   height: 50,
                 ),
+                 SizedBox(width: 20),
+                Container(
+                  color: Colors.redAccent,
+                  width: 50,
+                  height: 50,
+                ),
               ],
             ),
-            SizedBox(height: 20), // Spacing between rows
+            SizedBox(height: 20), 
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
@@ -36,12 +42,19 @@ class ColumnPage extends StatelessWidget {
                   width: 50,
                   height: 50,
                 ),
-                SizedBox(width: 20), // Spacing between boxes
+                SizedBox(width: 20), 
                 Container(
                   color: Colors.purple,
                   width: 50,
                   height: 50,
                 ),
+                 SizedBox(width: 20),
+                Container(
+                  color: Colors.grey,
+                  width: 50,
+                  height: 50,
+                ),
+                
               ],
             ),
           ],
